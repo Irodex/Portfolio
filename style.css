@@ -1,0 +1,267 @@
+
+*{box-sizing: border-box}
+
+body
+{
+
+background-color: black;
+color: crimson;
+font-family: "Times New Roman",Times,serif;
+
+}
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+   display:block;
+}
+a
+{
+    color: white
+}
+nav
+{
+padding:1em;
+text-align: center;
+}
+nav a
+{
+    padding: 2em;
+    font-family: "Times New Roman",Times,serif;
+    color: crimson;
+    text-decoration: none;
+    text-align:center;
+}
+
+table
+{
+   width: 60%; margin-left:auto;
+   margin-right: auto; 
+   border: 2px solid white;
+   padding: 2em;
+   
+}
+td,th{   text-align: center;}
+td{border-bottom: 2px solid white;}
+dt{font-size: 18px}
+dd{padding:1em;}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    color: crimson;
+    font-size: 30pt;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+   
+    letter-spacing:10px;
+    word-spacing: 5px;
+}
+
+#footaboutme
+{
+    padding-top: 40em;
+}
+footer
+{
+    padding: 1em;
+    background: #1e1b1b;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+
+
+#education {
+    position:relative;
+    background-image: url(black-and-white-blank-notebook-158829.jpg);
+    background-repeat: no-repeat;
+     width:450px;
+    height:500px;
+    float:left;
+    margin:5px;
+    background-size:100%;
+    background-position: center;
+    transition: 0.3s;
+    
+}
+#education:hover{
+    background-size:120%;
+}
+#education:after{
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.8);
+    color:crimson;
+    opacity:0;
+    text-align:center;
+    content:attr(data-text);
+}
+#education:hover:after
+{
+    opacity: 1;
+    top:0;
+}
+
+#techskills {
+    position:relative;
+  background-image: url(black-and-white-computer-display-220357.jpg);
+    background-repeat: no-repeat;
+     width:450px;
+    height:500px;
+    float:left;
+    margin:5px;
+    background-size:100%;
+    background-position: center;
+    transition: 0.3s;
+}
+#techskills:hover{
+    background-size:120%;
+}
+#techskills:after{
+   padding: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.8);
+    color:crimson;
+    text-align:center;
+    opacity:0;
+    content:attr(data-text);
+}
+#techskills:hover:after
+{
+    opacity: 1;
+    top:0;
+}
+
+#gamedev {
+    position:relative;
+   background-image: url(action-blur-close-up-735911.jpg);
+    background-repeat: no-repeat;
+     width:450px;
+    height:500px;
+    float:left;
+    margin:5px;
+    background-size:100%;
+    background-position: center;
+    transition: 0.3s;
+}
+#gamedev:hover{
+    background-size:120%;
+}
+#gamedev:after{
+    
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.8);
+    color:crimson;
+    text-align:center;
+    opacity:0;
+    content:attr(data-text);
+    
+}
+#gamedev:hover:after
+{
+    opacity: 1;
+    top:0;
+}
+
+label
+{
+    float:left;
+    text-align: right;
+    width:10em;
+    padding-right: 1em;
+}
+input,textarea
+{
+    display:block;
+    margin-bottom: 2em;
+}
+submit
+{   
+}
+form
+{
+    padding: 3em;
+}
+p, h3,h4{
+    text-align: center;
+}
+header, main,nav,footer,figure,figcaption,aside,section,aericle {display:block;}
+#mobile
+{
+    display: none;
+}
+#desktop
+{
+    display: inline;
+}
+label
+{
+    float:left;
+    text-align: right;
+    width:10em;
+    padding-right: 1em;
+}
+input,textarea
+{
+    display:block;
+    margin-bottom: 2em;
+}
+submit
+{
+margin-left: 12em;    
+}
+form
+{
+    padding: 3em;
+}
+@media only screen and (max-width: 64em)
+{
+    body{margin: 0;padding:0;}
+  
+    header{padding:1px;}
+    main{padding: 0.45em; margin:0;font-size:90%;float:none;}
+    nav {float: none;padding:1em; width:auto;}
+    nav a{padding:3em; float:none;width:auto;}
+    h2,h3,p,h4{padding-right:0.5em;padding-left:0.5em;}
+    img {margin-left: auto; margin-right: auto; width:650px; height:650px;}
+    iframe{width:600px;}
+   
+
+}
+@media only screen and (max-width:37.5em)
+{
+    h1,h2,h3,h4,p{padding-top:4em; width:auto; text-align: center;}
+    nav a { float:none;padding:0.5em;float:left;min-width:6em;margin-left:0.5em;}
+    nav {float: none;padding:1em; width:auto;}
+    footer{padding:0.89em; margin:10px; float:none;}
+    img{max-width:410px;}
+    iframe{width:400px; height:270px;}
+    #mobile{display:inline;}
+    #desktop{display: none}
+    table{width: 20em; padding: .1em; overflow: auto;}
+ 
+}
