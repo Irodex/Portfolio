@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VaxMan", "VaxMan.pyproj", "{52AF4FAD-2A7D-49FF-B7AE-02A0D40B661E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52AF4FAD-2A7D-49FF-B7AE-02A0D40B661E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AF4FAD-2A7D-49FF-B7AE-02A0D40B661E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0A4408-A5A8-4B83-B79D-307C2CF3334A}
+	EndGlobalSection
+EndGlobal

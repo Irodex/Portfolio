@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <title>JavaJam Coffee House</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="myTheme.min.css" />
+	<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body><!-- Body Contains ALL your pages and your <div data-role="page" tags become indvidual site pages -->
+   
+    <!-- Start of first page: #Home -->
+    <div data-role="page" id="Home"  data-theme="b">
+ 
+        <div data-role="header"> <!-- This is your page header. -->
+            <h1>Welcome to JavaJam </h1><!-- Change the title for each page. -->
+            
+             <!-- this section goes in every JQM page it is the common 
+             navbar for the site -->
+            <div data-role="navbar">
+              <a data-role="button" class="ui-link" data-icon="home" 
+                 data-iconpos="left" href="#Home">Home</a>
+              <a data-role="button" class="ui-link" data-icon="star" 
+                 data-iconpos="left" href="#Menu">Menu</a> 
+            </div> <!--navbar -->
+       
+        </div><!-- /header -->
+ 
+        <div role="main" class="ui-content"><!-- The content of your page goes here -->
+            
+            <ul>
+                <li>Specialty Coffee and Tea</li>
+                <li>Bagels, Muffins, and Organic Snacks</li>
+                <li>Music and Poetry Readings</li>
+                <li>Open Mic Night Every Friday</li>
+            </ul>
+            
+        
+        </div><!-- /content -->
+ 
+        <div data-role="footer">
+            <h4>Copyright  2016 JavaJam Coffeee House</h4>
+        </div><!-- /footer -->
+ 
+    </div><!-- /end of home page -->
+    
+ 
+    <!-- Start of second page: #Menu -->
+    <div data-role="page" id="Menu"  data-theme="a">
+ 
+        <div data-role="header"> <!-- This is your page header. -->
+            <h1>Menu</h1><!-- Change the title for each page. -->
+            
+             <!-- this section goes in every JQM page it is the common 
+             navbar for the site -->
+            <div data-role="navbar">
+              <a data-role="button" class="ui-link" data-icon="home" 
+                 data-iconpos="left" href="#Home">Home</a>
+              <a data-role="button" class="ui-link" data-icon="star" 
+                 data-iconpos="left" href="#Menu">Menu</a> 
+            </div> <!--navbar -->
+       
+        </div><!-- /header -->
+ 
+        <div role="main" class="ui-content"><!-- The content of your page goes here -->
+            
+      <p> Menu Stuff goes here </p>
+            
+        
+        </div><!-- /content -->
+ 
+        <div data-role="footer">
+            <h4>Copyright  2016 JavaJam Coffeee House</h4>
+        </div><!-- /footer -->
+ 
+    </div><!-- /end of home page -->
+</html>

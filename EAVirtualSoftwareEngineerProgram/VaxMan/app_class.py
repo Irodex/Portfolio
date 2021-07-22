@@ -1,0 +1,3 @@
+
+impoty pygame
+fromsettings import *
